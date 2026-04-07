@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-style: normal;
+}
+#area_tela {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    /*border: 1px solid #000;*/
+    background-color: #7dda7d;
+}
+#banner{
+    background-image:url('img/banner.png');
+    height: 180px;
+    color: #fff;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #0aa30a;
+    height: auto    
+}
+#texto{
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*align-items: justify;*/
+    text-align: center;
+    padding: 10px;
+}
+#links li a{
+        color: #000
+}
+#rodape{
+    display: flex;
+    justify-content:flex-start;
+    background-color: #0aa30a;
+    height: auto    
+}
+h1{
+    font-family: Arial;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+}
+img{
+    width: 15%;
+    align-items: right;
+    justify-content: right;
+}
+h2{
+    font:12px,verdana;
+    text-align:center;
+    color: #f00;
+    font-weight: bold;
+}
+p{
+    font-size: 12px;
+    text-align: justify;
+}
+a{
+    font-size: 15px;
+    float: left;
+    margin-right: 40px;
+    color:#fff
+}
